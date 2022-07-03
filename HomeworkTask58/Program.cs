@@ -70,7 +70,7 @@ if(col1 != row2){
 
     Console.WriteLine();
     
-    int[,] arr3 = CreateArr(col2, col2);
+    int[,] arr3 = CreateArr(row1, col2);
     PrintArr(MultMat(arr1, arr2, arr3));
 
 }
